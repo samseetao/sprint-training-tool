@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5174252314410263"
+         crossorigin="anonymous"></script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>About</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="top-bar">
+        <div class="container">
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+            </nav>
+        </div>
+    </header>
+    <div id="app" class="info-panel">
+        <div>
+            <section>
+                <h1>About This Website</h1>
+                <p>
+                    This website is a personal project platform created and maintained by an independent developer.
+                    It hosts a collection of small web tools and experiments, focusing on simplicity, 
+                    performance, and usability. The platform itself does not require users to submit personal information; 
+                    however, individual projects may have their own privacy policies if they collect or process data.
+                </p>
+            </section>
+
+            <section>
+                <h2>What You Can Find Here</h2>
+                <ul>
+                    <li><strong>Sprint Training Tool</strong> – A timing and audio-based sprint training assistant and distance feedback tool.</li>
+                    <li><strong>Coming Soon</strong> – More web tools and projects will be added over time.</li>    
+                </ul>         
+            </section>
+
+            <section>
+                <h2>Privacy</h2>
+                <p>
+                    Most pages may display third-party advertisements (such as Google AdSense),
+                    which may use cookies or similar technologies according to their own policies.
+                    For details on platform-level and project-specific data practices, please see the 
+                    <a href="privacy.html">Privacy Policy</a> page.
+                </p>
+            </section>
+
+            <section>
+                <h2>Contact & Support</h2>
+                <p>
+                    For feedback or questions, contact: <a href="mailto:samseetao@gmail.com">samseetao@gmail.com</a>.
+                </p>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 SamseeTao Projects</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="index.html">Home</a></p>
+        </footer>
+    </div>
+    
+    <script>
+    document.querySelectorAll('.nav-links a').forEach(link => {
+        if (link.href === window.location.href) {
+            link.classList.add('active');
+        }
+    });
+    </script>
+</body>
+</html>
